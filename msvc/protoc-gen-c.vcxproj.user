@@ -8,4 +8,8 @@
     <LocalDebuggerCommandArguments>--c_out=C:/Development/op3d_active/mapserver-7.4.0/msvc/renderers/mvt --proto_path=C:/Development/op3d_active/mapserver-7.4.0/renderers/mvt C:/Development/op3d_active/mapserver-7.4.0/renderers/mvt/vector_tile.proto</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|Win32'">
+    <LocalDebuggerCommandArguments>--c_out=C:/Development/op3d_active/mapserver-7.4.0/msvc/renderers/mvt --proto_path=C:/Development/op3d_active/mapserver-7.4.0/renderers/mvt C:/Development/op3d_active/mapserver-7.4.0/renderers/mvt/vector_tile.proto</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
